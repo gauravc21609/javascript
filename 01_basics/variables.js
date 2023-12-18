@@ -15,4 +15,4 @@ accountCity ="dehradun"
 
 console.log("account_Id");
 
-console.table([account_Id, accountEmail, accountPassword, accountCity])
+console.table([account_Id, accountEmail, accountPassword, accountCity]);
