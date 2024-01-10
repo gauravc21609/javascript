@@ -1,8 +1,8 @@
-const account_Id = 144553;
+const accountId = 144553;
 
 // account_Id
-
-Let accountEmail = "gaurav486@gmail.com";
+  //  javascript is casesensitive language.
+let accountEmail = "gaurav486@gmail.com";
 var accountPassword = "gjaura@1";
 
 acountCity = "dehli";
@@ -15,4 +15,4 @@ accountCity ="dehradun"
 
 console.log("account_Id");
 
-console.table([account_Id, accountEmail, accountPassword, accountCity]);
+console.table([accountId, accountEmail, accountPassword, accountCity]);
