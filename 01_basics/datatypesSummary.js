@@ -32,4 +32,27 @@ const myFunction = function(){
    console.log("hello world");
 }
 
-console.log(typeof Symbol);
+// console.log(typeof Symbol);
+
+
+//      stack  (primitive) copy, and heap memory(non-primitive)  refrence..
+
+let myYoutubename = "gaurav.com"
+
+let anotherName = myYoutubename
+anotherName = "chaiorcode"
+
+console.log(anotherName);
+console.log(myYoutubename);
+
+let userOne = {
+   email: "user.@gmail",
+   id: "user@ybl"
+};
+
+let userTwo = userOne
+
+userTwo.email = "hello@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
