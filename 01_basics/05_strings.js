@@ -33,3 +33,7 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('sunder'));
 
 console.log(gameName.split('-'));
+
+let originString = "Hello World!";
+let removeCharacter = originString.replace(/l/g , '');
+console.log(removeCharacter);
