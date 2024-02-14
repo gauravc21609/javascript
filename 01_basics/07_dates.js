@@ -28,10 +28,24 @@ let myTimeStap =Date.now()
 // console.log(Math.floor(Date.now()/1000));
 
 let newDate = new Date()
-console.log(newDate);
-console.log(newDate.getYear());
+// console.log(newDate);
+// console.log(newDate.getYear());
 
 newDate.toLocaleString('default',{
    weekday: "long"
-
 })
+
+const myDOB = new Date()
+console.log(myDOB.toDateString());
+
+const d = new Date();
+console.log(d.toISOString());
+// console.log(d.parse("february 14, 2023"));
+
+console.log(d.getFullYear());
+console.log(d.getMonth());
+console.log(d.getDate());
+console.log(d.toLocaleString());
+console.log(d.toJSON());
+console.log(d.toLocaleDateString());
+
