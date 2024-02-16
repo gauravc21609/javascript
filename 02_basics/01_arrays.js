@@ -40,13 +40,40 @@ const newArr = myArr.join()
 
 //    sclice , splice
 
-console.log("A", myArr);
+// console.log("A", myArr);
 
 const myn1 = myArr.slice(1, 3)
 
-console.log(myn1);
-console.log("B", myArr);
+// console.log(myn1);
+// console.log("B", myArr);
 
 const myn2 = myArr.splice(1, 3)
-console.log("C", myArr);
-console.log(myn2);
+// console.log("C", myArr);
+// console.log(myn2);
+
+const girl = [ "apple", "mango", "junkFood"];
+
+// girl.pop();
+// console.log(girl);
+
+Array.prototype.myPop = function(){
+  if(this.lenth===0){
+    return undefined;
+  }else{
+    const LastIndex = this.length -1;
+    const popedElement = this[LastIndex];
+    this.length = LastIndex;
+    return popedElement;
+  }
+};
+
+girl.myPop();
+console.log(girl);
+
+const range = (start, end) => {
+  let result = [...Array (end - start + 1).key()].map((el) => el + 1)
+  return result;
+
+};
+
+console.log(range(1, 40));
