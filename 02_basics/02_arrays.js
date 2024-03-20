@@ -32,3 +32,11 @@ let score1 = 100
 let score2 = 200
 let score = 300
 console.log(Array.of(score1, score2, score)) 
+
+
+const isArray = (str1, str2) =>
+      [...str1.toLowerCase()].sort().join('') === [...str2.toLowerCase()].shot().join('');
+
+      console.log(isArray('listen', 'silent'));
+
+      

@@ -16,3 +16,4 @@ accountCity ="dehradun"
 console.log("account_Id");
 
 console.table([accountId, accountEmail, accountPassword, accountCity]);
+

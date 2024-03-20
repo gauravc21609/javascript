@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+ <script>
+  const newDiv = document.createElement('div')
+ newDiv.className= "first-Div"
+ console.log(newDiv);
+ newDiv.id = "first-Div"
+ newDiv.style.height = '100px'
+ newDiv.style.width = '100px'
+ newDiv.style.border = '4px solid black'
+ newDiv.style.display = 'flex'
+ newDiv.style.justifyContent = 'center'
+ newDiv.style.alignItems = 'center'
+
+ const addText = document.createTextNode('chai or code')
+
+ newDiv.appendChild(addText)
+
+ document.body.appendChild(div)
+ </script>
+</html>
